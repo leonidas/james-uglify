@@ -1,0 +1,30 @@
+{
+  "name": "james-uglify",
+  "version": "0.1.0",
+  "description": "James transformer for Uglify2.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint ./**/*.js && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/leonidas/james-uglify.git"
+  },
+  "keywords": [
+    "james",
+    "build",
+    "tool",
+    "uglify"
+  ],
+  "author": "Jarno Keskikangas",
+  "license": "BSD",
+  "dependencies": {
+    "uglify-js": "~2.2.5",
+    "james": "~0.1.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.2",
+    "jshint": "~1.1.0",
+    "readable-stream": "~1.0.2"
+  }
+}
