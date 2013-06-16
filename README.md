@@ -8,7 +8,7 @@ var james  = require('james'),
 
 james.task('default', function() {
 
-  james.files('src/**/*.js').forEach(function(file) {
+  james.list('src/**/*.js').forEach(function(file) {
     james.read(file)
       .transform(uglify)
       .write(process.stdout);
